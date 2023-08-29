@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  width: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+}
+.photo {
+  width: 268px;
+  height: 400px;
+  /* position: relative; */
+  overflow: hidden;
+  margin-top: -3pc;
+}
+
+.pos-title h3 {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.a1 {
+  color: #000;
+  position: absolute;
+  /* bottom: 0; */
+  /* margin-top: 5pc; */
+}
+
+.hero-1 {
+  display: flex;
+  align-items: center;
+  gap: 2pc;
+}
+.about {
+  display: flex;
+}
+.about img {
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
+}
+.about-text {
+  display: flex;
+  height: 452px;
+  color: white;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  background: var(--grey-800, #0d162f);
+  width: 800px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex h1 {
+  color: var(--grey-800, #0d162f);
+
+  /* H2 32 40 */
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.flex select {
+  color: var(--primary-500, #ee0505);
+
+  /* H4 16 20 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  display: flex;
+  width: 1120px;
+  padding: 16px;
+  align-items: center;
+  gap: 16px;
+  background: #00000000;
+  border-radius: 8px;
+  border: 1px solid var(--grey-400, #94a1b1);
+  margin-top: 20px;
+}
+.a {
+  display: flex;
+  width: 365px;
+  height: 400px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: var(--grey-800, #0d162f);
+}
+.a h2 {
+  color: var(--white, #fff);
+
+  /* H3 24 32 */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.a h6 {
+  color: var(--white, #fff);
+
+  /* H4 16 20 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.header-bloc {
+  display: flex;
+}
+.v {
+  background: var(--grey-800, #0d162f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 2pc;
+}
